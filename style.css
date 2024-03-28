@@ -1,0 +1,49 @@
+#topnav{
+ display: flex;
+ padding-left: 10%; 
+ gap: 5%;  
+}
+#couch{
+    padding-left: 10%;
+    font-size: xx-large;
+}
+.room{
+    display: flex;
+    padding-left: 10%;
+    gap: 15%;
+}
+.medals{
+    display: flex;
+    padding-left: 10%;
+    gap: 5%;
+}
+.art{
+    display: flex;
+    padding-left: 10%;
+    gap: 5%;
+}
+.brands{
+    display: flex;
+    padding-left: 10%;
+    gap: 15%;
+}
+.quality{
+    display: flex;
+    padding-left: 10%;
+    gap: 5%;
+}
+.companies{
+    display: flex;padding-left: 10%;
+    gap: 10%;
+}
+.clothes{
+    padding-left: 10%;
+    gap: 15%;
+}
+.footer{
+    display: flex;
+    padding-left: 10%;
+    gap: 5%;
+    background-color: black;
+    color: white;
+}
