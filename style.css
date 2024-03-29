@@ -4,8 +4,13 @@
  gap: 5%;  
 }
 #couch{
+    background-image:  url("/images/couch.jpeg");
+    background-repeat: no-repeat;
     padding-left: 10%;
     font-size: xx-large;
+    background-size: cover;
+    color:aliceblue;
+    text-align: center;
 }
 .room{
     display: flex;
@@ -21,6 +26,18 @@
     display: flex;
     padding-left: 10%;
     gap: 5%;
+}
+#title{
+    text-align: center;
+}
+#topic{
+    text-align: center;
+}
+#content{
+    text-align: center;
+}
+#sub-topic{
+ text-align: center;
 }
 .brands{
     display: flex;
