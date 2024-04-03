@@ -8,11 +8,13 @@ let arr=[12,4,3,50,0]
 
 function checkNumber(arr) {
     arr.forEach(element => {
+    
        if (element > 0) {
+    
+         console.log('${element} is positive');
+      }else if (element < 0) 
 
-         console.log("positive");
-       } else if (element < 0) {
-         console.log("negative");
+         console.log( '$negative");
        
        } else {
          console.log("zero");
@@ -31,11 +33,14 @@ function checkNumber(arr) {
     
        //Write a function that takes in an array of numbers and consoles the first four items multiplied by 8 and the last two added by 5. Console the array with the new values
 function Array(numbers) {
+
+}
     numbers.forEach((number, index) => {
        if (index < 4) {
          numbers[index] = number * 8;
        } else if (index >= numbers.length - 2) {
          numbers[index] = number + 5;
-       }
-    });
+       }}
+    )}
     console.log(numbers);
+  
